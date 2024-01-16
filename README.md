@@ -1,2 +1,4 @@
 # customer-discount-project
 customer discount project: returns the final amount to be paid for the order after removing the discount .
+
+In the below code, the total cost for an order is calculated using nested if blocks. The assumption over here is that each food item costs $10. The Regular customers are provided with a 5% discount for their orders whereas the Guests need to pay an additional delivery charge of $5.  First, the customer type is checked. If the customer type is Regular, then the if block gets executed. If the customer type is Guests, then else if block gets executed. Also, for regular customers, if the total cost exceeds $20, a special gift voucher will be provided to the customers. This condition is checked within the outer if block. If customer type is invalid, then the statements of else block get executed.
